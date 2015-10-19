@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiled_mech01_asset01" tilewidth="32" tileheight="32">
+  <image source="../images/tiled_mech01_asset01.png" width="64" height="64"/>
+ </tileset>
+ <layer name="platform" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRgA8wDhAeBaNgFAxdAACBJAAf
+  </data>
+ </layer>
+ <layer name="pole" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5AImHHgUkAdIDTtqhflAxRm6vbRyByF7Bou91HLHQNk7CkbBKBgFyAAAL78AMQ==
+  </data>
+ </layer>
+</map>
