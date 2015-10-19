@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="language", content="en")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    meta(name="author", content="")
+    meta(name="robots", content="index")
+    title tilemaps01
+
+    // build:css css/style.css
+    link(href='css/style.css', rel='stylesheet')
+    // endbuild
+
+    // build:remove
+    script(src='js/devreload.js')
+    // endbuild
+
+    // build:js js/phaser.min.js
+    script(src='js/phaser.js')
+    // endbuild
+
+  body
+    #gamecanvas
+
+  script(src='js/build.js')
